@@ -1,0 +1,1413 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/sb-admin-2.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/MobileNav.css">
+		
+
+		<script type="text/javascript" src="js/test.js"></script>
+		<script type="text/javascript" src="js/Exam5.js"></script>
+	</head>
+
+<body>
+<div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <a class="navbar-brand hidden-sm hidden-xs" href="#">KiemTraChinhTri v2.0</a>
+            </div>
+            <!-- /.navbar-header -->
+            
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+
+	<div id="begin" class="fullScr hidden">
+		<input type="button" value="Bắt đầu" onclick="begin()">
+	</div>	
+	
+	<div id="passForm" class="fullScr">
+		<input id="enterPass" type="password" placeholder="Enter Password">
+		<input id="btnEnter" type="button" style="display: none;" value="enter" onclick="verify()">
+	</div> 
+	
+<!-- Mobile Nav-->
+    <nav class="navbar navbar-inverse navbar-fixed-top hidden-lg hidden-md" id="sidebar-wrapper" role="navigation">
+        <p class="PanelHeader">Các câu chưa chọn:</p>
+        <ul class="nav sidebar-nav" id="uncheckList_mobile">
+            <!-- list here-->           
+        </ul>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+    <div id="page-content-wrapper">
+        <button type="button" class="hamburger is-closed hidden-lg hidden-md" data-toggle="offcanvas" id="toggleButton">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+
+
+<div id="container" class="hidden">
+<h2 class="title">Đối tượng Đảng viên</h2>
+
+
+
+
+<div class="question">
+<h3 id="1">
+ <b><span>1. </span>
+Văn kiện Đại hội XIII của Đảng về “Phát huy sức mạnh đại đoàn kết toàn dân tộc, dân chủ xã hội chủ nghĩa và quyền làm chủ của Nhân dân” xác định trọng tâm là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q1" onclick="traloi[1]='A'">
+A. Thực hiện đúng đắn, hiệu quả dân chủ trực tiếp, dân chủ đại diện, đặc biệt là dân chủ ở cơ sở.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q1" onclick="traloi[1]='B'">
+B. Thực hiện đúng đắn dân chủ trực tiếp, dân chủ đại diện, đặc biệt là dân chủ ở cơ sở.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q1" onclick="traloi[1]='C'">
+C. Thực hiện có hiệu quả dân chủ trực tiếp, dân chủ đại diện, đặc biệt là dân chủ ở cơ sở.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q1" onclick="traloi[1]='D'">
+D. Thực hiện đúng đắn, hiệu quả dân chủ đại diện, đặc biệt là dân chủ ở cơ sở.
+</p>
+</p>
+<div id="DapAn1"></div>
+</div>
+<div class="question">
+<h3 id="2">
+ <b><span>2. </span>
+Đồng chí hãy cho biết đâu là điểm mới về nội dung công tác dân vận trong Văn kiện Đại hội lần thứ XIII của Đảng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q2" onclick="traloi[2]='A'">
+A. Xây dựng, kiện toàn tổ chức bộ máy, cán bộ làm công tác dân vận của hệ thống chính trị đáp ứng yêu cầu trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q2" onclick="traloi[2]='B'">
+B. Thể chế hóa, cụ thể hóa chủ trương, đường lối của Đảng về công tác dân vận gắn liền với thực hiện chức năng, nhiệm vụ của từng cơ quan, tổ chức trong hệ thống chính trị; triển khai sâu rộng phong trào thi đua “Dân vận khéo”.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q2" onclick="traloi[2]='C'">
+C. Phân công cán bộ phụ trách, cán bộ chuyên trách làm công tác dân vận có năng lực, đạo đức, uy tín, kinh nghiệm.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q2" onclick="traloi[2]='D'">
+D. Tiếp tục hoàn thiện, cụ thể hóa, thực hiện tốt cơ chế “Đảng lãnh đạo, Nhà nước quản lý, Nhân dân làm chủ” và phương châm “Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng”.
+</p>
+</p>
+<div id="DapAn2"></div>
+</div>
+<div class="question">
+<h3 id="3">
+ <b><span>3. </span>
+Theo Thông tư số 165/2018/TT-BQP Quy định về tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam, thì Hội đồng quân nhân bao gồm những thành phần nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q3" onclick="traloi[3]='A'">
+A. Sĩ quan, quân nhân chuyên nghiệp, HSQ-BS, công chức, công nhân viên quốc phòng
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q3" onclick="traloi[3]='B'">
+B. Sĩ quan, quân nhân chuyên nghiệp, HSQ-BS, công chức, công nhân viên quốc phòng, viên chức quốc phòng.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q3" onclick="traloi[3]='C'">
+C. Sĩ quan, quân nhân chuyên nghiệp
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q3" onclick="traloi[3]='D'">
+D. Sĩ quan, quân nhân chuyên nghiệp, HSQ-BS, công chức, công nhân viên quốc phòng, viên chức quốc phòng trong cơ quan, đơn vị có đủ tiêu chuẩn đều có thể tham gia ứng cử ủy viên Hội đồng quân nhân. 
+</p>
+</p>
+<div id="DapAn3"></div>
+</div>
+<div class="question">
+<h3 id="4">
+ <b><span>4. </span>
+Theo Thông tư số 165/2018/TT-BQP Quy định về tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam, thì cơ quan, đơn vị nào không thành lập Hội đồng quân nhân?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q4" onclick="traloi[4]='A'">
+A. Các tổng kho, kho, trạm, khối cơ quan doanh nghiệp trực thuộc Bộ Quốc phòng.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q4" onclick="traloi[4]='B'">
+B. . Lớp học, đại đội học viên, khoa, ban, phòng và tương đương của học viên, nhà trường, trung tâm, viện nghiên cứu, bệnh viện.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q4" onclick="traloi[4]='C'">
+C. Cơ quan, đơn vị có quân số dưới 10 người và các đơn vị sự nghiệp công lập ở cơ sở.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q4" onclick="traloi[4]='D'">
+D. Cấp cục và tương đương.
+</p>
+</p>
+<div id="DapAn4"></div>
+</div>
+<div class="question">
+<h3 id="5">
+ <b><span>5. </span>
+Theo Thông tư số 165/2018/TT-BQP Quy định về tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam, thì nhiệm của Đại hội Hội đồng quân nhân được tồ chức như thế nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q5" onclick="traloi[5]='A'">
+A. Đại hội quân nhân được tổ chức 5 năm 2 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q5" onclick="traloi[5]='B'">
+B. Đại hội quân nhân được tổ chức 3 năm 1 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q5" onclick="traloi[5]='C'">
+C. Đại hội quân nhân được tổ chức 5 năm 1 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q5" onclick="traloi[5]='D'">
+D. Đại hội quân nhân được tổ chức 2 năm 1 lần.
+</p>
+</p>
+<div id="DapAn5"></div>
+</div>
+<div class="question">
+<h3 id="6">
+ <b><span>6. </span>
+Theo Thông tư số 165/2018/TT-BQP thì mối quan hệ giữa Hội đồng quân nhân với cơ quan chính trị là mối quan hệ gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q6" onclick="traloi[6]='A'">
+A. Chịu sự hướng dẫn, kiểm tra
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q6" onclick="traloi[6]='B'">
+B. Phục tùng sự lãnh đạo, chỉ huy.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q6" onclick="traloi[6]='C'">
+C. Cả 3 phương án trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q6" onclick="traloi[6]='D'">
+D. Phục tùng sự lãnh đạo, chỉ đạo, chỉ huy
+</p>
+</p>
+<div id="DapAn6"></div>
+</div>
+<div class="question">
+<h3 id="7">
+ <b><span>7. </span>
+. Theo Chỉ thị số 590-CT/ĐUQSTW ngày 04/10/2010 của Đảng ủy Quân sự Trung ương (nay là Quân ủy Trung ương) về tiếp tục đẩy mạnh xây dựng và thực hiện Quy chế dân chủ cơ sở trong Quân đội yêu cầu các cấp ủy đảng cần tập trung lãnh đạo, chỉ đạo thực hiện tốt mấy nội dung?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q7" onclick="traloi[7]='A'">
+A. 5
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q7" onclick="traloi[7]='B'">
+B. 8
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q7" onclick="traloi[7]='C'">
+C. 6
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q7" onclick="traloi[7]='D'">
+D. 7
+</p>
+</p>
+<div id="DapAn7"></div>
+</div>
+<div class="question">
+<h3 id="8">
+ <b><span>8. </span>
+Quan điểm chỉ đạo thứ 4 được quy định trong Chỉ thị số 154-CT/ĐUQSTW ngày 09/4/2008 của Thường vụ Đảng ủy Quân sự Trung ương là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q8" onclick="traloi[8]='A'">
+A. Xác định đối tượng theo nguyên tắc: Bất cứ thế lực nào có âm mưu và hành động chống phá mục tiêu nước ta trong sự nghiệp xây dựng và bảo vệ Tổ quốc đều là đối tượng đấu tranh.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q8" onclick="traloi[8]='B'">
+B. Chủ động phòng ngừa là chính. Đồng thời xử lý kịp thời, kiên quyết, khôn khéo, khẩn trương, nhanh gọn các tình huống phức tạp, không để lan rộng, kéo dài, không để các thế lực thù địch lợi dụng, lấy cớ can thiệp.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q8" onclick="traloi[8]='C'">
+C. Phân hóa, cô lập phần tử chống đối, cầm đầu, ngoan cố. Giáo dục, cảm hóa những người lầm đường.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q8" onclick="traloi[8]='D'">
+D. Quán triệt quan điểm vừa hợp tác vừa đấu tranh, cố gắng gia tăng họp tác, tránh xung đột, đối đầu.
+</p>
+</p>
+<div id="DapAn8"></div>
+</div>
+<div class="question">
+<h3 id="9">
+ <b><span>9. </span>
+Chủ thể tham gia góp ý xây dựng Đảng, xây dựng chính quyền theo Quyết định số 218-QĐ/TW ngày 12/12/2013 của Bộ Chính trị khóa XI là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q9" onclick="traloi[9]='A'">
+A. Mặt trận Tổ quốc Việt Nam, các tổ chức thành viên của Mặt trận; các đoàn thể chính trị - xã hội các cấp.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q9" onclick="traloi[9]='B'">
+B. Cán bộ, đảng viên, đoàn viên, hội viên của Mặt trận Tổ quốc Việt Nam và các đoàn thể chính trị - xã hội các cấp.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q9" onclick="traloi[9]='C'">
+C. Mặt trận Tổ quốc Việt Nam, các đoàn thể chính trị - xã hội các cấp.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q9" onclick="traloi[9]='D'">
+D. Mặt trận Tổ quốc Việt Nam, các đoàn thể chính trị - xã hội các cấp; cán bộ, đoàn viên, hội viên, công chức, viên chức, người lao động và công dân.
+</p>
+</p>
+<div id="DapAn9"></div>
+</div>
+<div class="question">
+<h3 id="10">
+ <b><span>10. </span>
+Chức năng của Tổ công tác dân vận được xác định trong Thông tư số 157/2011/TT-BQP ngày 15/8/2011 của Bộ Quốc phòng sau đây là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q10" onclick="traloi[10]='A'">
+A. Tham mưu, đề xuất với cấp ủy, chính trị viên (bí thư) về nội dung, hình thức, biện pháp tiến hành công tác dân vận của cơ quan, đơn vị.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q10" onclick="traloi[10]='B'">
+B. Tham mưu, đề xuất với cấp ủy, chính trị viên (bí thư), người chỉ huy về nội dung, biện pháp tiến hành công tác dân vận của cơ quan, đơn vị.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q10" onclick="traloi[10]='C'">
+C. Tham mưu, đề xuất với cấp ủy, chính trị viên (bí thư), người chỉ huy về nội dung, hình thức tiến hành công tác dân vận của cơ quan, đơn vị.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q10" onclick="traloi[10]='D'">
+D. . Tham mưu, đề xuất với cấp ủy, chính trị viên (bí thư), người chỉ huy về nội dung, hình thức, biện pháp tiến hành công tác dân vận của cơ quan, đơn vị.
+</p>
+</p>
+<div id="DapAn10"></div>
+</div>
+<div class="question">
+<h3 id="11">
+ <b><span>11. </span>
+Nghị quyết số 49-NQ/QUTW ngày 26/01/2015 của Quân ủy Trung ương về tăng cường và đổi mới công tác dân vận của Quân đội trong tình hình mới xác định nhiệm vụ, giải pháp nào là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q11" onclick="traloi[11]='A'">
+A. Không ngừng nâng cao nhận thức, trách nhiệm của cán bộ, chiến sĩ về vị trí, vai trò công tác dân vận và đổi mới công tác dân vận của Đảng trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q11" onclick="traloi[11]='B'">
+B. Không ngừng nâng cao nhận thức, trách nhiệm của cán bộ, chiến sĩ về công tác dân vận, về chủ trương tăng cường và đổi mới công tác dân vận của Đảng trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q11" onclick="traloi[11]='C'">
+C. Không ngừng nâng cao nhận thức, trách nhiệm của cán bộ, chiến sĩ về công tác dân vận, về chủ trương tăng cường công tác dân vận của Đảng trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q11" onclick="traloi[11]='D'">
+D. Không ngừng nâng cao nhận thức, trách nhiệm của cán bộ, chiến sĩ về vị trí, vai trò công tác dân vận, về chủ trương tăng cường và đổi mới công tác dân vận của Đảng trong tình hình mới.
+</p>
+</p>
+<div id="DapAn11"></div>
+</div>
+<div class="question">
+<h3 id="12">
+ <b><span>12. </span>
+Theo Công văn số 251-CV/ĐU ngày 08/01/2016 của Đảng ủy Quân khu về việc tiếp tục đẩy mạnh thực hiện QCDCCS trong đảng bộ, LLVT Quân khu xác định: Ban Chỉ đạo thực hiện QCDCCS được thành lập ở cấp nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q12" onclick="traloi[12]='A'">
+A. Đảng ủy quân sự các tỉnh, thành phố
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q12" onclick="traloi[12]='B'">
+B. Đảng ủy Quân khu
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q12" onclick="traloi[12]='C'">
+C. Đảng ủy các cơ quan trực thuộc Quân khu
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q12" onclick="traloi[12]='D'">
+D. Đảng ủy cơ sở trở lên
+</p>
+</p>
+<div id="DapAn12"></div>
+</div>
+<div class="question">
+<h3 id="13">
+ <b><span>13. </span>
+Theo Chỉ thị số 154-CT/ĐU QSTW ngày 09/4/2008 của Thường vụ Đảng ủy Quân sự Trung ương về việc đổi mới, tăng cường công tác tuyên truyền đặc biệt trong thời kỳ mới xác định đối tượng nào sau đây là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q13" onclick="traloi[13]='A'">
+A. Tuyên truyền vận động góp phần củng cố tăng cường mối quan hệ đoàn kết, hữu nghị, xây dựng khu vực biên giới, biển đảo ổn định, hòa bình, hữu nghị, hợp tác cùng phát triển.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q13" onclick="traloi[13]='B'">
+B. Thường xuyên tuyên truyền, vận động góp phần củng cố tăng cường mối quan hệ đoàn kết, hữu nghị, xây dựng khu vực biên giới, biển đảo ổn định, hòa bình, hữu nghị, hợp tác cùng phát triển.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q13" onclick="traloi[13]='C'">
+C. Tuyên truyền vận động thường xuyên tăng cường mối quan hệ đoàn kết, hữu nghị, xây dựng khu vực biên giới, biển đảo ổn định, hòa bình, hữu nghị, hợp tác cùng phát triển.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q13" onclick="traloi[13]='D'">
+D. Tuyên truyền vận động thường xuyên, góp phần củng cố tăng cường mối quan hệ đoàn kết, hữu nghị, xây dựng khu vực biên giới, biển đảo ổn định, hòa bình, hữu nghị, hợp tác cùng phát triển.
+</p>
+</p>
+<div id="DapAn13"></div>
+</div>
+<div class="question">
+<h3 id="14">
+ <b><span>14. </span>
+Theo Hướng dẫn số 303/HD-CT ngày 28/02/2018 của Tổng cục Chính trị, đối với bộ đội chủ lực, bộ đội địa phương. Thời gian hành quân dã ngoại làm công tác dân vận hằng năm là bao nhiêu?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q14" onclick="traloi[14]='A'">
+A. 20 ngày (giai đoạn 1: 10 ngày, giai đoạn 2: 10 ngày).
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q14" onclick="traloi[14]='B'">
+B. 01 tháng (giai đoạn 1: 15 ngày, giai đoạn 2: 15 ngày).
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q14" onclick="traloi[14]='C'">
+C. 15 ngày (giai đoạn 1: 07 ngày, giai đoạn 2: 08 ngày).
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q14" onclick="traloi[14]='D'">
+D. 01 tháng (giai đoạn 1: 10 ngày, giai đoạn 2: 20 ngày).
+</p>
+</p>
+<div id="DapAn14"></div>
+</div>
+<div class="question">
+<h3 id="15">
+ <b><span>15. </span>
+Một trong những quyền hạn của Hội đồng quân nhân là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q15" onclick="traloi[15]='A'">
+A. Tham gia ý kiến vào thực hiện nhiệm vụ của cơ quan, đơn vị; giám sát, phản biện xã hội những vấn đề có liên quan đến tổ chức, hoạt động của Hội đồng quân nhân, quyền lợi, nghĩa vụ, trách nhiệm của quân nhân, công chức, công nhân quốc phòng, viên chức quốc phòng; tham gia giám sát cấp ủy, người đứng đầu, cán bộ chủ chốt, cán bộ, đảng viên về tu dưỡng, rèn luyện đạo đức, lối sống; góp ý đối với cấp ủy, tổ chức đảng, cán bộ, đảng biên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q15" onclick="traloi[15]='B'">
+B. Đại diện bảo vệ quyền, lợi ích hợp pháp, chính đáng và tham gia tư vấn tâm lý, tư vấn pháp luật cho quân nhân, công chức, công nhân quốc phòng, viên chức quốc phòng trong cơ quan, đơn vị.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q15" onclick="traloi[15]='C'">
+C. Tham gia giám sát và phản biện xã hội theo phạm vi, chức năng, nhiệm vụ, quyền hạn.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q15" onclick="traloi[15]='D'">
+D. Tham gia góp ý xây dựng đội ngũ cán bộ, đảng viên, tổ chức đảng trong sạch, vững mạnh, cơ quan, đơn vị vững mạnh toàn diện.
+</p>
+</p>
+<div id="DapAn15"></div>
+</div>
+<div class="question">
+<h3 id="16">
+ <b><span>16. </span>
+Các hình thức công tác dân vận theo Quy chế số 1017-QC/ĐU ngày 21/4/2022 của Đảng ủy Quân khu về công tác dân vận của LLVT Quân khu là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q16" onclick="traloi[16]='A'">
+A. Kết nghĩa; hành quân dã ngoại làm công tác dân vận; tổ, đội công tác dân vận; tăng cường cán bộ cơ sở; thực hiện chương trình phối hợp liên ngành làm công tác dân vận.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q16" onclick="traloi[16]='B'">
+B. Thực hiện chương trình phối hợp liên ngành làm công tác dân vận; chương trình phối hợp hoạt động, nghị quyết liên tịch, tổ chức các chương trình, hành trình, thực hiện các đề án, tọa đàm, hội thi, giao lưu văn hóa, văn nghệ, thể dục, thể thao và các hình thức khác phù hợp với từng địa bàn, nhiệm vụ của cơ quan, đơn vị và địa phương.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q16" onclick="traloi[16]='C'">
+C. Hành quân dã ngoại làm công tác dân vận; tổ, đội công tác dân vận; tăng cường cán bộ cơ sở; thực hiện chương trình phối hợp liên ngành làm công tác dân vận; chương trình phối hợp hoạt động, nghị quyết liên tịch, tổ chức các chương trình, hành trình, thực hiện các đề án, tọa đàm, hội thi, giao lưu văn hóa, văn nghệ, thể dục, thể thao và các hình thức khác phù hợp với từng địa bàn, nhiệm vụ của cơ quan, đơn vị và địa phương.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q16" onclick="traloi[16]='D'">
+D. . Kết nghĩa; hành quân dã ngoại làm công tác dân vận; tổ, đội công tác dân vận; tăng cường cán bộ cơ sở; thực hiện chương trình phối hợp liên ngành làm công tác dân vận; chương trình phối hợp hoạt động, nghị quyết liên tịch, tổ chức các chương trình, hành trình, thực hiện các đề án, tọa đàm, hội thi, giao lưu văn hóa, văn nghệ, thể dục, thể thao và các hình thức khác phù hợp với từng địa bàn, nhiệm vụ của cơ quan, đơn vị và địa phương. 
+</p>
+</p>
+<div id="DapAn16"></div>
+</div>
+<div class="question">
+<h3 id="17">
+ <b><span>17. </span>
+Luật số 02/2016/QH14 ngày 18/11/2016 của Quốc hội khóa XIV “Luật tín ngưỡng, tôn giáo” xác định trách nhiệm của Nhà nước trong việc bảo đảm quyền tự do tín ngưỡng, tôn giáo là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q17" onclick="traloi[17]='A'">
+A. Cả 3 đáp án trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q17" onclick="traloi[17]='B'">
+B. Nhà nước bảo hộ cơ sở tín ngưỡng, cơ sở tôn giáo và tài sản hợp pháp của cơ sở tín ngưỡng, tổ chức tôn giáo.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q17" onclick="traloi[17]='C'">
+C. Nhà nước tôn trọng, bảo vệ giá trị văn hóa, đạo đức tốt đẹp của tín ngưỡng, tôn giáo, truyền thống thờ cúng tổ tiên, tôn vinh người có công với đất nước, với cộng đồng đáp ứng nhu cầu tinh thần của Nhân dân.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q17" onclick="traloi[17]='D'">
+D. Nhà nước tôn trọng và bảo hộ quyền tự do tín ngưỡng, tôn giáo của mọi người; bảo đảm để các tôn giáo bình đẳng trước pháp luật.
+</p>
+</p>
+<div id="DapAn17"></div>
+</div>
+<div class="question">
+<h3 id="18">
+ <b><span>18. </span>
+Hướng dẫn số 5580/HD-CT ngày 23/11/2020 của Cục Chính trị Quân khu về việc tiếp tục thực hiện chủ trương “Tăng cường gắn kết thân thiện, hỗ trợ, giúp đỡ đồng bào dân tộc, tôn giáo” xác định công tác tôn giáo có mấy nội dung?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q18" onclick="traloi[18]='A'">
+A. 5 nội dung
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q18" onclick="traloi[18]='B'">
+B. 4 nội dung
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q18" onclick="traloi[18]='C'">
+C. 6 nội dung
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q18" onclick="traloi[18]='D'">
+D. 7 nội dung
+</p>
+</p>
+<div id="DapAn18"></div>
+</div>
+<div class="question">
+<h3 id="19">
+ <b><span>19. </span>
+Một trong những nhiệm vụ của Hội đồng quân nhân là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q19" onclick="traloi[19]='A'">
+A. Tham gia bình xét khen thưởng, kỷ luật trong cơ quan, đơn vị.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q19" onclick="traloi[19]='B'">
+B. Tham gia ý kiến vào việc thực hiện nhiệm vụ của cơ quan, đơn vị; giám sát, phản biện xã hội những vấn đề có liên quan đến tổ, hoạt động của Hội đồng quân nhân.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q19" onclick="traloi[19]='C'">
+C. Thống nhất nội dung, thời gian sinh hoạt của Hội đồng quân nhân.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q19" onclick="traloi[19]='D'">
+D. Xây dựng mối đoàn kết, thống nhất trong cơ quan, đơn vị, phát huy vai trò của quân nhân, công chức, viên chức quốc phòng thực hiện dân chủ về quân sự - chuyên môn, chính sách, kinh tế - đời sống.
+</p>
+</p>
+<div id="DapAn19"></div>
+</div>
+<div class="question">
+<h3 id="20">
+ <b><span>20. </span>
+Theo Thông tư số 165/2018/TT-BQP Quy định về tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam, thì hòm thư góp ý được được đặt từ cấp nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q20" onclick="traloi[20]='A'">
+A. Cấp đại đội và tương tương.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q20" onclick="traloi[20]='B'">
+B. Cấp tiểu đoàn và tương đương.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q20" onclick="traloi[20]='C'">
+C. Cấp Lữ đoàn.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q20" onclick="traloi[20]='D'">
+D. Cấp đại đội, tiểu đoàn và tương đương
+</p>
+</p>
+<div id="DapAn20"></div>
+</div>
+<div class="question">
+<h3 id="21">
+ <b><span>21. </span>
+Theo Thông tư số 165/2018/TT-BQP thì Hội đồng quân nhân có bao nhiêu nhiệm vụ?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q21" onclick="traloi[21]='A'">
+A. 7
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q21" onclick="traloi[21]='B'">
+B. 5
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q21" onclick="traloi[21]='C'">
+C. 6
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q21" onclick="traloi[21]='D'">
+D. 8
+</p>
+</p>
+<div id="DapAn21"></div>
+</div>
+<div class="question">
+<h3 id="22">
+ <b><span>22. </span>
+Theo Thông tư số 157/2011/TT-BQP ngày 15/8/2011 quy định về tổ chức và hoạt động của Tổ công tác dân vận ở đơn vị cơ sở trong Quân đội nhân dân Việt Nam, thì nhiệm vụ của Tổ công tác dân vận được quy định như thế nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q22" onclick="traloi[22]='A'">
+A. Nắm tình hình địa bàn, mối quan hệ quân dân và tình hình chấp hành kỷ luật dân vận.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q22" onclick="traloi[22]='B'">
+B. Cả 3 đáp án trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q22" onclick="traloi[22]='C'">
+C. Làm nòng cốt thực hiện công tác dân vận ở đơn vị cơ sở.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q22" onclick="traloi[22]='D'">
+D. Phối hợp với các đoàn thể địa phương tổ chức các hoạt động công tác dân vận.
+</p>
+</p>
+<div id="DapAn22"></div>
+</div>
+<div class="question">
+<h3 id="23">
+ <b><span>23. </span>
+Theo Thông tư số 165/2018/TT-BQP Quy định về tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam, thì cấp Lữ đoàn chế độ sinh hoạt đối thoại như thế nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q23" onclick="traloi[23]='A'">
+A. 6 tháng 1 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q23" onclick="traloi[23]='B'">
+B. Mỗi tháng 1 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q23" onclick="traloi[23]='C'">
+C. 1 tuần 1 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q23" onclick="traloi[23]='D'">
+D. Mỗi quý 1 lần.
+</p>
+</p>
+<div id="DapAn23"></div>
+</div>
+<div class="question">
+<h3 id="24">
+ <b><span>24. </span>
+Hội đồng quân nhân là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q24" onclick="traloi[24]='A'">
+A. Hội đồng quân nhân là một tổ chức do tập thể quân nhân bầu ra nhằm mục đích đại diện quyền, lợi ích chính đáng của mọi quân nhân dân chủ quân sự - chuyên môn, chính trị, kinh tế, đời sống.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q24" onclick="traloi[24]='B'">
+B. Hội đồng quân nhân là những đại biểu quân nhân ưu tú được lựa chọn ra để đại diện cho tập thể quân nhân thực hiện dân chủ cơ sở; trong đó phát huy dân chủ về quân sự - chuyên môn, chính trị, kinh tế - đời sống.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q24" onclick="traloi[24]='C'">
+C. Hội đồng quân nhân là tổ chức đại diện cho quân nhân, công chức, công nhân quốc phòng, viên chức quốc phòng; được thành lập ở cơ quan, đơn vị; do đại hội quân nhân bầu ra để thực hiện phát huy dân chủ về quân sự - chuyên môn, chính trị, kinh tế - đời sống.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q24" onclick="traloi[24]='D'">
+D. Hội đồng quân nhân là một tổ chức chỉ huy nhằm duy trì thực hiện dân chủ ở đơn vị vdân chủ về quân sự - chuyên môn, chính trị, kinh tế - đời sống trong các cơ quan, đơn vị Quân đội.
+</p>
+</p>
+<div id="DapAn24"></div>
+</div>
+<div class="question">
+<h3 id="25">
+ <b><span>25. </span>
+Theo Chỉ thị số 154-CT/ĐUQSTW ngày 09/4/2008 của Thường vụ Đảng ủy Quân sự Trung ương thì nhiệm vụ của công tác tuyền đặc biệt hiện nay là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q25" onclick="traloi[25]='A'">
+A. Tuyên truyền chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và các quy định của địa phương.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q25" onclick="traloi[25]='B'">
+B. Tuyên truyền vận động và đấu tranh với các đối tượng nước ngoài trên các hướng biên giới, biển đảo.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q25" onclick="traloi[25]='C'">
+C. Tuyên truyền, vận động và đấu tranh với các thế lực, những lực lượng, những người sử dụng trong âm mưu và hành động xâm phạm độc lập, chủ quyền, toàn vẹn lãnh thổ, phá hoại sự ổn định chính trị và chế độ XHCN của ta, làm cho họ thấy rõ sự thật và sự nghiệp chính nghĩa của ta, tôn trọng pháp luật nước ta và công pháp quốc tế, tôn trọng các Hiệp định, Hiệp ước, Thỏa thuận đã ký kết, làm giảm sút ý chí, tinh thần, tư tưởng và phân hóa lực lượng chống phá, góp phần cùng với các hình thức đấu tranh khác ngăn chặn, đẩy lùi và làm thất bại mọi âm mưu, kế hoạch và hoạt động chống phá của các thế lực thù địch, thực hiện thắng lợi nhiệm vụ xây dựng và bảo vệ Tổ quốc Việt Nam XHCN.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q25" onclick="traloi[25]='D'">
+D. Tuyên truyền, vận động và đấu tranh với các thế lực, những lực lượng sử dụng âm mưu và hành động xâm phạm độc lập, chủ quyền nước ta.
+</p>
+</p>
+<div id="DapAn25"></div>
+</div>
+<div class="question">
+<h3 id="26">
+ <b><span>26. </span>
+Đồng chí cho biết Ngày truyền thống Ngành dân vận Quân đội?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q26" onclick="traloi[26]='A'">
+A. 01/5/1947.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q26" onclick="traloi[26]='B'">
+B. 01/01/1947.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q26" onclick="traloi[26]='C'">
+C. 01/02/1947.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q26" onclick="traloi[26]='D'">
+D. 10/5/1947.
+</p>
+</p>
+<div id="DapAn26"></div>
+</div>
+<div class="question">
+<h3 id="27">
+ <b><span>27. </span>
+Thông tư số 157/2011/TT-BQP ngày 15/8/2011 của Bộ Quốc phòng quy định về nội dung gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q27" onclick="traloi[27]='A'">
+A. Quy định vê việc tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q27" onclick="traloi[27]='B'">
+B. Quy định về tổ chức và hoạt động của Tổ công tác dân vận ở đơn vị cơ sở trong Quân đội nhân dân Việt Nam.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q27" onclick="traloi[27]='C'">
+C. Quy định về việc ban hành Quy chế công tác dân vận trong Quân đội nhân dân Việt Nam.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q27" onclick="traloi[27]='D'">
+D. Quy định về việc tiếp tục đẩy mạnh xây dựng và thực hiện Quy chế dân chủ cơ sở trong Quân đội.
+</p>
+</p>
+<div id="DapAn27"></div>
+</div>
+<div class="question">
+<h3 id="28">
+ <b><span>28. </span>
+Theo Chỉ thị số 154-CT/ĐU QSTW ngày 09/4/2008 của Thường vụ Đảng ủy Quân sự Trung ương về việc đổi mới, tăng cường công tác tuyên truyền đặc biệt trong thời kỳ mới xác định đối tượng theo nguyên tắc nào sau đây là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q28" onclick="traloi[28]='A'">
+A. Thế lực nào có âm mưu và hành động chống phá mục tiêu của nước ta trong sự nghiệp xây dựng và bảo vệ Tổ quốc đều là đối tượng đấu tranh.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q28" onclick="traloi[28]='B'">
+B. Bất cứ thế lực nào có âm mưu chống phá mục tiêu của nước ta trong sự nghiệp xây dựng và bảo vệ Tổ quốc đều là đối tượng đấu tranh.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q28" onclick="traloi[28]='C'">
+C. Bất cứ thế lực nào có âm mưu và hành động chống phá nước ta trong sự nghiệp xây dựng và bảo vệ Tổ quốc đều là đối tượng đấu tranh.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q28" onclick="traloi[28]='D'">
+D. Bất cứ thế lực nào có âm mưu và hành động chống phá mục tiêu của nước ta trong sự nghiệp xây dựng và bảo vệ Tổ quốc đều là đối tượng đấu tranh.
+</p>
+</p>
+<div id="DapAn28"></div>
+</div>
+<div class="question">
+<h3 id="29">
+ <b><span>29. </span>
+Theo Thông tư số 165/2018/TT-BQP Quy định về tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam, số lượng ủy viên Hội đồng quân nhân được quy định như thế nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q29" onclick="traloi[29]='A'">
+A. Cơ quan, đơn vị có quân số 50 người trở xuống bầu từ 03 đến 05 ủy viên; trên 60 người bầu không quá 09 ủy viên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q29" onclick="traloi[29]='B'">
+B. Cơ quan, đơn vị có quân số 70 người trở xuống bầu từ 03 đến 05 ủy viên; trên 90 người bầu không quá 09 ủy viên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q29" onclick="traloi[29]='C'">
+C. Cơ quan, đơn vị có quân số 60 người trở xuống bầu từ 03 đến 05 ủy viên; trên 60 người bầu không quá 09 ủy viên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q29" onclick="traloi[29]='D'">
+D. Cơ quan, đơn vị có quân số 60 người trở xuống bầu từ 04 đến 06 ủy viên; trên 90 người bầu không quá 09 ủy viên.
+</p>
+</p>
+<div id="DapAn29"></div>
+</div>
+<div class="question">
+<h3 id="30">
+ <b><span>30. </span>
+Theo Thông tư số 157/2011/TT-BQP ngày 15/8/2011 của Bộ Quốc phòng quy định nhiệm vụ của Tổ công tác dân vận nào sau đây là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q30" onclick="traloi[30]='A'">
+A. Cả 3 nhiệm vụ trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q30" onclick="traloi[30]='B'">
+B. Nắm tình hình địa bàn, mối quan hệ quân dân và tình hình chấp hành kỷ luật dân vận.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q30" onclick="traloi[30]='C'">
+C. . Phối hợp với các đoàn thể địa phương tổ chức các hoạt động công tác dân vận.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q30" onclick="traloi[30]='D'">
+D. Làm nòng cốt thực hiện công tác dân vận ở đơn vị cơ sở.
+</p>
+</p>
+<div id="DapAn30"></div>
+</div>
+<div class="question">
+<h3 id="31">
+ <b><span>31. </span>
+Nghị quyết số 49-NQ/QUTW ngày 26/01/2015 của Quân ủy Trung ương về tăng cường và đổi mới công tác dân vận của Quân đội trong tình hình mới xác định nhiệm vụ, giải pháp nào là đúng?	
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q31" onclick="traloi[31]='A'">
+A. Đổi mới nội dung, phương thức hoạt động của Hội đồng quân nhân và các tổ chức quần chúng trong thực hiện công tác dân vận.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q31" onclick="traloi[31]='B'">
+B. Đổi mới nội dung, phương thức hoạt động của Hội đồng quân nhân trong thực hiện công tác dân vận. 
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q31" onclick="traloi[31]='C'">
+C. Đổi mới nội dung hoạt động của Hội đồng quân nhân và các tổ chức quần chúng trong thực hiện công tác dân vận.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q31" onclick="traloi[31]='D'">
+D. Đổi mới phương thức hoạt động của Hội đồng quân nhân và các tổ chức quần chúng trong thực hiện công tác dân vận.
+</p>
+</p>
+<div id="DapAn31"></div>
+</div>
+<div class="question">
+<h3 id="32">
+ <b><span>32. </span>
+Văn kiện Đại hội XIII của Đảng về “Phát huy sức mạnh đại đoàn kết toàn dân tộc, dân chủ xã hội chủ nghĩa và quyền làm chủ của Nhân dân” xác định thực hiện tốt phương châm nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q32" onclick="traloi[32]='A'">
+A. “Dân biết, dân bàn, dân làm, dân giám sát, dân thụ hưởng”.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q32" onclick="traloi[32]='B'">
+B. “Dân biết, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng”.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q32" onclick="traloi[32]='C'">
+C. “Dân biết, dân làm, dân bàn, dân kiểm tra, dân giám sát, dân thụ hưởng”.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q32" onclick="traloi[32]='D'">
+D. “Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng”.
+</p>
+</p>
+<div id="DapAn32"></div>
+</div>
+<div class="question">
+<h3 id="33">
+ <b><span>33. </span>
+Nghị quyết số 25-NQ/TW ngày 03/6/2013 của Ban Chấp hành Trung ương Đảng khóa XI về tăng cường và đổi mới sự lãnh đạo của Đảng đối với công tác dân vận trong tình hình mới xác định nhiệm vụ, giải pháp nào sau đây là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q33" onclick="traloi[33]='A'">
+A. Nâng cao nhận thức của đội ngũ cán bộ Đảng, Nhà nước và các tầng lớp Nhân dân về vai trò, vị trí công tác dân vận trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q33" onclick="traloi[33]='B'">
+B. Nâng cao nhận thức của Đảng, Nhà nước, Mặt trận, đoàn thể chính trị - xã hội và các tầng lớp Nhân dân về vai trò, vị trí công tác dân vận trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q33" onclick="traloi[33]='C'">
+C. Nâng cao nhận thức của đội ngũ cán bộ Đảng, Nhà nước, Mặt trận, đoàn thể chính trị - xã hội và các tầng lớp Nhân dân về vai trò, vị trí công tác dân vận trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q33" onclick="traloi[33]='D'">
+D. Nâng cao nhận thức của đội ngũ cán bộ Đảng, Nhà nước, đoàn thể chính trị - xã hội và các tầng lớp Nhân dân về vai trò, vị trí công tác dân vận trong tình hình mới.
+</p>
+</p>
+<div id="DapAn33"></div>
+</div>
+<div class="question">
+<h3 id="34">
+ <b><span>34. </span>
+Theo Hướng dẫn số 303/HD-CT ngày 28/02/2018 của Tổng cục Chính trị về thực hiện hành quân dã ngoại làm công tác dân vận trong Quân đội nhân dân Việt Nam và Dân quân tự vệ, xác định trong hành quân dã ngoại làm công tác dân vận cần chú ý một số nội dung nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q34" onclick="traloi[34]='A'">
+A. Cả 3 nội dung trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q34" onclick="traloi[34]='B'">
+B. Duy trì, quản lý đơn vị chấp hành nghiêm kỷ luật Quân đội, kỷ luật dân vận, quy định đóng quân canh phòng ngoài doanh trại; triển khai thực hiện kế hoạch đã xác định.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q34" onclick="traloi[34]='C'">
+C. Giao ban nắm tình hình hằng ngày, làm tốt công tác biểu dương, nhắc nhở cán bộ, chiến sĩ trong thực hiện nhiệm vụ; phối hợp chặt chẽ với cấp ủy, chính quyền địa phương và các cơ quan thông tấn, báo chí tuyên truyền kết quả hoạt động trong suốt thời gian đóng quân dã ngoại làm công tác dân vận trên địa bàn.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q34" onclick="traloi[34]='D'">
+D. Phối hợp với địa phương ổn định nơi đóng quân, nắm lại những nội dung đã hiệp đồng, kịp thời điều chỉnh những nội dung công việc phát sinh.
+</p>
+</p>
+<div id="DapAn34"></div>
+</div>
+<div class="question">
+<h3 id="35">
+ <b><span>35. </span>
+Nêu phương châm công tác dân vận theo Quy chế số 1017-QC/ĐU ngày 21/4/2022 của Đảng ủy Quân khu về công tác dân vận của LLVT Quân khu là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q35" onclick="traloi[35]='A'">
+A. Nghe dân nói, nói dân hiểu, làm dân tin và thực hiện phong cách dân vận của Chủ tịch Hồ Chí Minh: Trọng dân, gần dân, học dân và có trách nhiệm với dân.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q35" onclick="traloi[35]='B'">
+B. Cùng ăn, cùng ở, cùng làm.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q35" onclick="traloi[35]='C'">
+C. Trọng dân, gần dân, hiểu dân, học dân và có trách nhiệm với dân.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q35" onclick="traloi[35]='D'">
+D. Nghe dân nói, nói dân hiểu, làm dân tin.
+</p>
+</p>
+<div id="DapAn35"></div>
+</div>
+<div class="question">
+<h3 id="36">
+ <b><span>36. </span>
+Đồng chí hãy cho biết nội dung “không lấy của dân, không dọa nạt dân, không quấy nhiễu dân” trong 10 lời thề danh dự của quân nhân là lời thề thứ mấy?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q36" onclick="traloi[36]='A'">
+A. Lời thề thứ 9.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q36" onclick="traloi[36]='B'">
+B. Lời thề thứ 10.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q36" onclick="traloi[36]='C'">
+C. Lời thề thứ 7.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q36" onclick="traloi[36]='D'">
+D. Lời thề thứ 8.
+</p>
+</p>
+<div id="DapAn36"></div>
+</div>
+<div class="question">
+<h3 id="37">
+ <b><span>37. </span>
+Luật số 02/2016/QH14 ngày 18/11/2016 của Quốc hội khóa XIV “Luật tín ngưỡng, tôn giáo” xác định tôn giáo là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q37" onclick="traloi[37]='A'">
+A. Là niềm tin của con người tồn tại với hệ thống quan niệm và hoạt động bao gồm giáo lý, giáo luật, lễ nghi và tổ chức.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q37" onclick="traloi[37]='B'">
+B. Là niềm tin của con người tồn tại với hệ thống quan niệm và hoạt động bao gồm đối tượng tôn thờ, giáo lý, giáo luật, lễ nghi và tổ chức.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q37" onclick="traloi[37]='C'">
+C. Là niềm tin của con người tồn tại với hệ thống quan điểm bao gồm đối tượng tôn thờ, giáo lý, giáo luật, lễ nghi, tổ chức.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q37" onclick="traloi[37]='D'">
+D. Là niềm tin của con người tồn tại và hoạt động bao gồm đối tượng tôn thờ, giáo lý, giáo luật, lễ nghi và tổ chức.
+</p>
+</p>
+<div id="DapAn37"></div>
+</div>
+<div class="question">
+<h3 id="38">
+ <b><span>38. </span>
+Thông tư số 165/2018/TT-BQP Quy định về tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam được ban hành vào ngày, tháng, năm nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q38" onclick="traloi[38]='A'">
+A. Ngày 12/12/2018
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q38" onclick="traloi[38]='B'">
+B. Ngày 12/01/2018
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q38" onclick="traloi[38]='C'">
+C. Ngày 01/12/2018
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q38" onclick="traloi[38]='D'">
+D. Ngày 24/12/2018
+</p>
+</p>
+<div id="DapAn38"></div>
+</div>
+<div class="question">
+<h3 id="39">
+ <b><span>39. </span>
+Theo Thông tư số 165/2018/TT-BQP Quy định về tổ chức và hoạt động của Hội đồng quân nhân trong Quân đội nhân dân Việt Nam, thì nội dung dân chủ được thể hiện trên các mặt?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q39" onclick="traloi[39]='A'">
+A. Thực hiện dân chủ về công tác tham mưu; dân chủ về chính trị và dân chủ về kinh tế - đời sống.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q39" onclick="traloi[39]='B'">
+B. Thực hiện dân chủ về quân sự - chuyên môn; dân chủ về văn hóa tinh thần và dân chủ về kinh tế - đời sống.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q39" onclick="traloi[39]='C'">
+C. Thực hiện dân chủ về quân sự - chuyên môn; dân chủ về chính trị và dân chủ về công tác hậu cần – kỹ thuật.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q39" onclick="traloi[39]='D'">
+D. Thực hiện dân chủ về quân sự - chuyên môn; dân chủ về chính trị và dân chủ về kinh tế - đời sống.
+</p>
+</p>
+<div id="DapAn39"></div>
+</div>
+<div class="question">
+<h3 id="40">
+ <b><span>40. </span>
+Theo Thông tư số 165/2018/TT-BQP thì mối quan hệ giữa Hội đồng quân nhân với cấp ủy, bí thư cấp ủy, người chỉ huy, chính ủy, chính trị viên là mối quan hệ gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q40" onclick="traloi[40]='A'">
+A. Phục tùng sự lãnh đạo, chỉ đạo, chỉ huy.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q40" onclick="traloi[40]='B'">
+B. Cả 3 phương án trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q40" onclick="traloi[40]='C'">
+C. Chịu sự hướng dẫn, kiểm tra.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q40" onclick="traloi[40]='D'">
+D. Phục tùng sự lãnh đạo, chỉ đạo.
+</p>
+</p>
+<div id="DapAn40"></div>
+</div>
+<div class="question">
+<h3 id="41">
+ <b><span>41. </span>
+Thông tư số 165/2018/TT-BQP của Bộ Quốc phòng quy định về thời gian sinh hoạt đối thoại dân chủ như thế nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q41" onclick="traloi[41]='A'">
+A. Cấp cơ sở mỗi tháng 01 lần, cấp trên cơ sở mỗi quý 1 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q41" onclick="traloi[41]='B'">
+B. Cấp cơ sở, trên cơ sở mỗi tháng 01 lần, cấp trực thuộc Bộ Quốc phòng 6 tháng 01 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q41" onclick="traloi[41]='C'">
+C. Sinh hoạt đối thoại dân chủ ở các cấp mỗi tháng 01 lần.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q41" onclick="traloi[41]='D'">
+D. Cấp cơ sở mỗi tháng 01 lần, cấp trên cơ sở mỗi quý 01 lần, cấp trực thuộc Bộ Quốc phòng 6 tháng 01 lần.
+</p>
+</p>
+<div id="DapAn41"></div>
+</div>
+<div class="question">
+<h3 id="42">
+ <b><span>42. </span>
+Theo Thông tư số 165/2018/TT-BQP thì mối quan hệ giữa Hội đồng quân nhân với ban chấp hành các tổ chức quần chúng cùng cấp là mối quan hệ gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q42" onclick="traloi[42]='A'">
+A. Lãnh đạo và phục tùng.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q42" onclick="traloi[42]='B'">
+B. Phối hợp hoạt động.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q42" onclick="traloi[42]='C'">
+C. Cả 3 phương án trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q42" onclick="traloi[42]='D'">
+D. Lãnh đạo, phục tùng và kiểm tra.
+</p>
+</p>
+<div id="DapAn42"></div>
+</div>
+<div class="question">
+<h3 id="43">
+ <b><span>43. </span>
+Theo Chỉ thị số 154-CT/ĐU QSTW ngày 09/4/2008 của Thường vụ Đảng ủy Quân sự Trung ương về việc đổi mới, tăng cường công tác tuyên truyền đặc biệt trong thời kỳ mới xác định phương châm, nguyên tắc nào sau đây là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q43" onclick="traloi[43]='A'">
+A. Công tác tuyên truyền đặc biệt phải quán triệt đúng quan điểm, đường lối, chính sách đối ngoại, chính sách đại đoàn kết toàn dân tộc của Đảng và Nhà nước.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q43" onclick="traloi[43]='B'">
+B. Công tác tuyên truyền đặc biệt phải quán triệt và thực hiện đúng quan điểm, đường lối, chính sách đại đoàn kết toàn dân tộc của Đảng và Nhà nước.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q43" onclick="traloi[43]='C'">
+C. Công tác tuyên truyền đặc biệt phải quán triệt và thực hiện đúng quan điểm, đường lối, chính sách đối ngoại, chính sách đại đoàn kết toàn dân tộc của Đảng và Nhà nước.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q43" onclick="traloi[43]='D'">
+D. Công tác tuyên truyền đặc biệt phải thực hiện đúng quan điểm, đường lối, chính sách đối ngoại, chính sách đại đoàn kết toàn dân tộc của Đảng và Nhà nước.
+</p>
+</p>
+<div id="DapAn43"></div>
+</div>
+<div class="question">
+<h3 id="44">
+ <b><span>44. </span>
+Theo Thông tư số 157/2011/TT-BQP ngày 15/8/2011 quy định mối quan hệ giữa cấp ủy, chính trị viên và chỉ huy đơn vị với Tổ công tác dân vận là mối quan hệ nào sau đây?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q44" onclick="traloi[44]='A'">
+A. Cả 3 phương án trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q44" onclick="traloi[44]='B'">
+B. Lãnh đạo, phục tùng và chỉ huy.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q44" onclick="traloi[44]='C'">
+C. Phục tùng và lãnh đạo, chỉ huy.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q44" onclick="traloi[44]='D'">
+D. Lãnh đạo, chỉ huy và phục tùng.
+</p>
+</p>
+<div id="DapAn44"></div>
+</div>
+<div class="question">
+<h3 id="45">
+ <b><span>45. </span>
+Nội dung của phong trào thi đua “Dân vận khéo”, xây dựng “Đơn vị dân vận tốt” giai đoạn 2021 – 2025?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q45" onclick="traloi[45]='A'">
+A. Quán triệt, thực hiện có chất lượng chủ trương của Đảng, Nhà nước về công tác dân vận; thực hiện tốt phong trào thi đua “Dân vận khéo”, xây dựng “Đơn vị dân vận tốt”.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q45" onclick="traloi[45]='B'">
+B. Tổ chức học tập, quán triệt sâu sắc tư tưởng Hồ Chí Minh, các nghị quyết, chỉ thị của Đảng về công tác dân vận, phong trào thi đua trong tình hình mới. Duy trì, xây dựng, phát triển sáng tạo những mô hình, điển hình “Dân vận khéo”, xây dựng “Đơn vị dân vận tốt” trên các lĩnh vực.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q45" onclick="traloi[45]='C'">
+C. Xây dựng nhiều mô hình, điển hình “Dân vận khéo”, xây dựng “Đơn vị dân vận tốt”.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q45" onclick="traloi[45]='D'">
+D. Tổ chức học tập, quán triệt sâu sắc tư tưởng Hồ Chí Minh, các nghị quyết, chỉ thị của Đảng về công tác dân vận, phong trào thi đua trong tình hình mới.
+</p>
+</p>
+<div id="DapAn45"></div>
+</div>
+<div class="question">
+<h3 id="46">
+ <b><span>46. </span>
+Luật số 02/2016/QH14 ngày 18/11/2016 của Quốc hội khóa XIV “Luật tín ngưỡng, tôn giáo” xác định tín ngưỡng là gì?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q46" onclick="traloi[46]='A'">
+A. Là niềm tin của con người được thể hiện thông qua những lễ nghi gắn liền với phong tục, tập quán truyền thống để mang lại sự bình an cho cá nhân và cộng đồng.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q46" onclick="traloi[46]='B'">
+B. Là niềm tin của con người được thể hiện thông qua những lễ nghi gắn liền với phong tục, tập quán truyền thống để mang lại sự bình an về tinh thần cho cá nhân và cộng đồng.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q46" onclick="traloi[46]='C'">
+C. Là niềm tin của con người được thể hiện thông qua những lễ nghi gắn liền với tập quán truyền thống để mang lại sự bình an về tinh thần cho cá nhân và cộng đồng.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q46" onclick="traloi[46]='D'">
+D. Là niềm tin của con người được thể hiện thông qua những lễ nghi gắn liền với phong tục, tập quán truyền thống để mang lại sự bình an về tinh thần cho cộng đồng và cá nhân.
+</p>
+</p>
+<div id="DapAn46"></div>
+</div>
+<div class="question">
+<h3 id="47">
+ <b><span>47. </span>
+Đồng chí hãy cho biết nội dung “đóng quân nhà dân không được làm phiền nhiễu Nhân dân, phải giữ gìn nhà của sạch sẽ” thuộc điều mấy trong 12 điều kỷ luật khi quan hệ với Nhân dân?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q47" onclick="traloi[47]='A'">
+A. Điều 3.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q47" onclick="traloi[47]='B'">
+B. Điều 5.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q47" onclick="traloi[47]='C'">
+C. Điều 6.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q47" onclick="traloi[47]='D'">
+D. Điều 4.
+</p>
+</p>
+<div id="DapAn47"></div>
+</div>
+<div class="question">
+<h3 id="48">
+ <b><span>48. </span>
+“Đổi mới nội dung, phương thức thực hiện công tác dân vận của các cơ quan Nhà nước các cấp, đưa công tác dân vận trở thành nhiệm vụ thường xuyên gắn với việc thực hiện chức năng, nhiệm vụ của cơ quan Nhà nước, cán bộ, công chức” là nội dung được nêu trong văn bản nào?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q48" onclick="traloi[48]='A'">
+A. Kết luận số 03-KL/TW ngày 13/5/2016 của Ban Bí thư Trung ương về tiếp tục thực hiện Quyết định số 290-QĐ/TW của Bộ Chính trị khóa X về “ban hành quy chế công tác dân vận của hệ thống chính trị”.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q48" onclick="traloi[48]='B'">
+B. Chỉ thị số 33-CT/TTg ngày 26/11/2021 của Thủ tướng Chính phủ về tiếp tục tăng cường và đổi mới công tác dân vận của cơ quan hành chính Nhà nước, chính quyền các cấp trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q48" onclick="traloi[48]='C'">
+C. Kết luận số 114-KL/TW ngày 14/7/2021 của Ban Bí thư Trung ương Đảng (khóa XI) về nâng cao hiệu quả công tác dân vận của cơ quan Nhà nước các cấp.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q48" onclick="traloi[48]='D'">
+D. Quyết định số 23-QĐ/TW ngày 30/7/2021 của Bộ Chính trị về việc ban hành Quy chế công tác dân vận của hệ thống chính trị.
+</p>
+</p>
+<div id="DapAn48"></div>
+</div>
+<div class="question">
+<h3 id="49">
+ <b><span>49. </span>
+Theo Thông tư số 157/2011/TT-BQP ngày 15/8/2011 của Bộ Quốc phòng quy định tiêu chuẩn thành viên của Tổ công tác dân vận nào sau đây là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q49" onclick="traloi[49]='A'">
+A. Cả 3 tiêu chuẩn trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q49" onclick="traloi[49]='B'">
+B. Gương mẫu chấp hành đường lối, chủ trương, chính sách của Đảng, pháp luật của Nhà nước, kỷ luật Quân đội, quy định của đơn vị.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q49" onclick="traloi[49]='C'">
+C. Có phương pháp tác phong công tác dân vận; có kiến thức, hiểu biết về phong tục tập quán, ngôn ngữ của Nhân dân trên địa bàn đóng quân.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q49" onclick="traloi[49]='D'">
+D. Có khả năng giao tiếp, năng lực vận động, thuyết phục quần chúng; tận tụy với nhiệm vụ cao.
+</p>
+</p>
+<div id="DapAn49"></div>
+</div>
+<div class="question">
+<h3 id="50">
+ <b><span>50. </span>
+Theo Hướng dẫn số 303/HD-CT ngày 28/02/2018 của Tổng cục Chính trị về thực hiện hành quân dã ngoại làm công tác dân vận trong Quân đội nhân dân Việt Nam và Dân quân tự vệ, xác định nội dung nào sau đây là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q50" onclick="traloi[50]='A'">
+A. Cả 3 nội dung trên.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q50" onclick="traloi[50]='B'">
+B. Tham gia xây dựng hệ thống chính trị cơ sở vững mạnh, xây dựng nền quốc phòng toàn dân, thế trận quốc phòng toàn dân gắn với thế trận an ninh Nhân dân vững chắc, góp phần làm thất bại chiến lược “diễn biến hòa bình”, “bạo loạn lật đổ” của các thế lực thù địch.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q50" onclick="traloi[50]='C'">
+C. Tuyên truyền, vận động Nhân dân thực hiện thắng lợi đường lối, chủ trương của Đảng, chính sách, pháp luật của Nhà nước, nhiệm vụ quân sự, quốc phòng và nhiệm vụ chính trị của địa phương.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q50" onclick="traloi[50]='D'">
+D. Tích cực tham gia các phong trào, các cuộc vận động của Đảng, Nhà nước, Mặt trận Tổ quốc Việt Nam và địa phương phát động; giúp Nhân dân xóa đói, giảm nghèo, phát triển kinh tế, văn hóa, xã hội, phòng, chống khắc phục hậu quả thiên tai, thảm họa và bảo vệ môi trường; thực hiện tốt chính sách dân tộc, tôn giáo và chính sách xã hội của Đảng, Nhà nước.
+</p>
+</p>
+<div id="DapAn50"></div>
+</div>
+<div class="question">
+<h3 id="51">
+ <b><span>51. </span>
+Đồng chí cho biết Ngày truyền thống công tác dân vận của Đảng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q51" onclick="traloi[51]='A'">
+A. 15/10/1930.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q51" onclick="traloi[51]='B'">
+B. 25/10/1930.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q51" onclick="traloi[51]='C'">
+C. 05/10/2030.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q51" onclick="traloi[51]='D'">
+D. 10/10/1930.
+</p>
+</p>
+<div id="DapAn51"></div>
+</div>
+<div class="question">
+<h3 id="52">
+ <b><span>52. </span>
+Nghị quyết số 49-NQ/QUTW ngày 26/01/2015 của Quân ủy Trung ương về tăng cường và đổi mới công tác dân vận của Quân đội trong tình hình mới xác định nhiệm vụ, giải pháp nào là đúng?
+</b>
+</h3>
+<p>
+<input class="checkBox" type="radio" value="v1" name="q52" onclick="traloi[52]='A'">
+A. Không ngừng nâng cao nhận thức, trách nhiệm của cán bộ, chiến sĩ về công tác dân vận, về chủ trương tăng cường và đổi mới công tác dân vận của Đảng trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v2" name="q52" onclick="traloi[52]='B'">
+B. Không ngừng nâng cao nhận thức, trách nhiệm của cán bộ, chiến sĩ về vị trí, vai trò công tác dân vận, về chủ trương tăng cường và đổi mới công tác dân vận của Đảng trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v3" name="q52" onclick="traloi[52]='C'">
+C. Không ngừng nâng cao nhận thức, trách nhiệm của cán bộ, chiến sĩ về vị trí, vai trò công tác dân vận và đổi mới công tác dân vận của Đảng trong tình hình mới.
+</p>
+<p>
+<input class="checkBox" type="radio" value="v4" name="q52" onclick="traloi[52]='D'">
+D. Không ngừng nâng cao nhận thức, trách nhiệm của cán bộ, chiến sĩ về công tác dân vận, về chủ trương tăng cường công tác dân vận của Đảng trong tình hình mới.
+</p>
+</p>
+<div id="DapAn52"></div>
+</div>
+<!-- pos -->
+<div class="btndone" id="check">
+    <input type="button" value="Kiểm tra" onclick="Kiemtra()">
+</div>
+<div class="btndone" id="done">
+    <button type="submit" class="btn btn-lg btn-success btn-block" id="done" onclick="LamXong()">
+        Làm xong
+    </button>
+</div>
+</div> <!-- /container -->
+</div> <!-- /page-content-wrapper -->
+<div class="ketqua" id="ketqua">
+	<div class="resultButton" id="resultButton" onclick="hideRightPanel();">
+		<i id="resultButtonLabel" class="fa fa-arrow-right" aria-hidden="true"></i>
+	</div>
+		<p class="PanelHeader" style="margin-top: -25px;">Kết quả</p>
+ 		<p>Tổng số câu: <span id="numOfQues"></span> </p>
+ 		<p>Số câu đúng: <span id="trueNumber"></span></p>
+ 		<p>Điểm: <span id="mark"></span></p>
+ 		<p>Xếp loại: <span id="qualtity"></span></p>
+</div>
+<div class="checkedTracking hidden-sm hidden-xs" id="checkedTracking">
+	<div class="trackingButton" id="trackingButton" onclick="hideLeftPanel();">
+		<i id="trackingButtonLabel" class="fa fa-arrow-left" aria-hidden="true"></i>
+	</div>
+		<p class="PanelHeader">Các câu chưa chọn:</p>
+ 		<ul id="uncheckList">
+ 			<!-- list here -->
+ 		</ul>
+ 		<div class="btndone" id="check">
+		 	<input type="button" value="Kiểm tra" onclick="Kiemtra()">
+		</div>
+</div>
+<div id="timeout"  class="fullScr">
+	<p>Hết giờ!</p>
+</div>
+<div id="countdown" class="countdownClock hidden">
+   <span id="timer"></span>
+</div>
+<!--
+<div class="nav hidden" id="mobile-nav">
+	<p style="color: white; text-align: center; font-size: 14px; margin: 1px; padding-left: 0px;">Ôn tập kiểm tra trắc nghiệm</p>
+	 <div class="navBtn" onClick="Kiemtra_Mobile()">
+	 	<i id="navButtonLabel" class="fa fa-bars" aria-hidden="true"></i>
+	</div>
+</div>
+-->
+</div>
+
+</body>
+</html>
+
